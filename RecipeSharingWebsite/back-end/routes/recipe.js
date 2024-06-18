@@ -68,6 +68,7 @@ router.get("/recipes", async (req, res) => {
     res.json({ message: error.message });
   }
 });
+<<<<<<< Updated upstream
 
 //Update Recipe
 router.put("/recipes/:recipeId", authMiddleware, async (req, res) => {
@@ -92,4 +93,7 @@ router.delete("/recipes/:recipeId", authMiddleware, async (req, res) => {
   }
 });
 
+=======
+  
+>>>>>>> Stashed changes
 module.exports = router;
